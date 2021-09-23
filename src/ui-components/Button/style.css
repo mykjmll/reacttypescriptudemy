@@ -1,0 +1,40 @@
+.btn {
+  height: 40px;
+  width: auto;
+  border-radius: 5px;
+  border: none;
+  outline: 0;
+  color:#ffffff;
+  cursor: pointer;
+}
+
+.btn:active {
+  transform: scale(0.95);
+}
+
+.btn-primary {
+  background-color: #f9cd40;
+}
+
+.btn-primary:hover {
+  background-color: #f9cd4080;
+}
+
+.btn-primary.selected {
+  background-color: #ddab07;
+}
+
+.btn-default {
+  background-color: #ffffff;
+  color: #f9cd40;
+  border: 1px solid #f9cd40;
+}
+
+.btn-default:hover {
+  background-color: #f9cd4080;
+}
+
+.btn-default.selected {
+  background-color: #f9cd40;
+  color: #ffffff;
+}

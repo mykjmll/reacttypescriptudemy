@@ -1,0 +1,40 @@
+.header-nav-container {
+  display: flex;
+  justify-content: space-between;
+  height: 70px;
+  margin: 10px 0;
+}
+
+.header-nav-container .nav-item {
+  font-size: 16px;
+  cursor: pointer;
+  text-decoration: none;
+  color: #000000;
+}
+
+.header-nav-container .shopname {
+  font-size: 40px;
+  cursor: pointer;
+  color: #f9cd40 ;
+  font-weight: bold;
+  font-family: fantasy;
+
+}
+
+.nav-items-left, .nav-items-right {
+  display: flex;
+  align-items: center;
+}
+
+.nav-items-left .nav-item {
+  margin-right: 50px;
+}
+
+.nav-items-left .nav-item:not(.shopname) {
+  padding-top: 10px;
+}
+
+.nav-items-right .fa-shopping-cart {
+  font-size: 20px;
+  color: #f9cd40;
+}

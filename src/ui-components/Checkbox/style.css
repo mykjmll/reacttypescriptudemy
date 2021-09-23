@@ -1,0 +1,31 @@
+.checkbox-container {
+  cursor: pointer;
+  display: inline-flex;
+  position: relative;
+}
+
+.checkbox-container .checkbox-icon {
+  color: #f9cd40;
+  cursor: pointer;
+  font-size: 20px;
+  position: absolute;
+  left: 0;
+  font-family: 'FontAwesome';
+  font-style: normal;
+}
+
+.checkbox-container .checkbox-icon.fa-check-square {
+  color: #f9cd40;
+  font-size: 19px;
+}
+
+.checkbox-container:hover .checkbox-icon {
+  color: #f9cd40;
+}
+
+.checkbox-container .checkbox-children {
+  color: #757575;
+  padding-top: 1px;
+  box-sizing: border-box;
+  margin-left: 30px;
+}

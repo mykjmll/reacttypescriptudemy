@@ -1,0 +1,5 @@
+.homepage-container .cover-image {
+  background: url('http://localhost:3000/coverimage.JPG') no-repeat;
+  background-size: cover;
+  height: 426px;
+}
